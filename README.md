@@ -27,7 +27,7 @@ If you don't have Git installed, you can download the repository as a ZIP file a
 3. Update the environment variables (`env`) file with the proper local or remote database credentials. Make sure to provide the correct information for the database connection.
 
 4. Run the following command to create the database specified in the environment variables:
-    ```npm run db:seed```
+    ```npm run db:create```
 This command will create the specified database if you have the proper access to the database server.
 
 At this point, your project should be set up and ready to use Sequelize, Node.js, Express, and PostgreSQL.
